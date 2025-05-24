@@ -1,0 +1,60 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+
+    color: #981;
+    font-weight: bold;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+#photo {
+
+    width: 8vw;
+    height: auto;
+
+}
+
+.subtitle {
+
+    color: rgb(151 156 165 / 0.89);
+    text-transform: capitalize;
+
+}
+
+footer p {
+    text-align: right;
+    font-style: italic;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+section{
+
+    /* borde de grosor 0.2 en puntos, estilo sólido y color hexadecimal #cedddd  */
+    border: 0.2pt solid #cedddd;
+
+    /* margen (espacio externo) superior, derecho, abajo e izquierda */
+    margin: 4px 2px 8px 2px;
+
+    /* relleno (espacio interno) de
+    1.5% en la parte superior e inferior y
+    0.8% a los lados derecho e izquierdo. */
+
+    padding: 1.5% 0.8%;
+
+    /* Margen inferior ajustado */
+    margin-bottom: 1.2rem;
+
+    box-shadow: 03px 3px 1px -0px rgba(235,234,234,0.6);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+}
