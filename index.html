@@ -20,7 +20,7 @@
                 <li><a href="#resumen">Resumen profesional</a></li>
                 <li><a href="#habilidades">Habilidades técnicas</a></li>
                 <li><a href="#experiencia">Experiencia laboral</a></li>
-                <li><a href="#proyectos">Proyectos relevantes</a></li>
+                <li><a href="#proyectos">Proyectos destacados</a></li>
                 <li><a href="#formacion">Formación académica</a></li>
                 <!-- Agrega en el menú de navegación -->
                 <li><a href="#referencias">Referencias</a></li>
@@ -29,53 +29,16 @@
     </header>
     <main>
         <section id="contacto">
-            <h2 class="subtitle"> Datos de contacto</h2>
-            <!-- Imagen de perfil (chaco) -->
-            <img id="photo" src="fotos/troste.jpg" alt="Foto de perfil de Zahid Alejandro Díaz Tapia" style="display:block;max-width:200px;width:100%;height:auto;border-radius:50%;margin-bottom:1em;">
-            <ul>
-                <li>Teléfono:</li>
-                <li>Correo electrónico:</li>
-                <li>LinkedIn / Github / Portafolio Web:</li>
-            </ul>
-            <!-- Formulario de contacto -->
-            <form action="#" method="post" style="display: flex; flex-direction: column; gap: 1em; max-width: 400px;">
-                <!-- Texto en una línea -->
-                <label>
-                    Nombre:
-                    <input type="text" name="nombre" required>
-                </label>
-                <!-- Lista desplegable -->
-                <label>
-                    Motivo de contacto:
-                    <select name="motivo" required>
-                        <option value="" disabled selected>Seleccione una opción</option>
-                        <option value="consulta">Consulta</option>
-                        <option value="trabajo">Oferta de trabajo</option>
-                        <option value="otro">Otro</option>
-                    </select>
-                </label>
-                <!-- Conjunto de opciones relacionadas (radio) -->
-                <fieldset style="border:none; padding:0;">
-                    <legend>¿Cómo prefieres ser contactado?</legend>
-                    <label><input type="radio" name="contacto" value="telefono" required> Teléfono</label>
-                    <label><input type="radio" name="contacto" value="email" required> Correo electrónico</label>
-                    <label><input type="radio" name="1" value="redes" required> Redes sociales</label>
-                </fieldset>
-                <!-- Vector de valores (checkbox) -->
-                <fieldset style="border:none; padding:0;">
-                    <legend>Intereses</legend>
-                    <label><input type="checkbox" name="intereses" value="desarrollo" required> Desarrollo</label>
-                    <label><input type="checkbox" name="intereses" value="diseño" required> Diseño</label>
-                    <label><input type="checkbox" name="intereses" value="investigacion" required> Investigación</label>
-                </fieldset>
-                <!-- Área de texto -->
-                <label>
-                    Mensaje:
-                    <textarea name="mensaje" rows="4" required></textarea>
-                </label>
-                <!-- Botón de envío -->
-                <button type="submit">Enviar</button>
-            </form>
+            <h2 class="subtitle">Datos de contacto</h2>
+            <div class="contacto-flex" style="flex-direction: column; align-items: center;">
+                <img id="photo" src="fotos/bloodxrks.png" alt="Foto de perfil de Zahid Alejandro Díaz Tapia" style="display:block; max-width: 200px; width: 100%; height:auto; border-radius: 50%; margin-bottom:1em;">
+                <ul style="text-align: center; margin-top: 0;">
+                    <li>Teléfono: +593 98 523 4733</li>
+                    <li>Correo electrónico: zdiaz@espol.edu.ec</li>
+                    <li>GitHub: LockHurb</li>
+                    <li>LinkedIn: Zahid Alejandro Díaz Tapia</li>
+                </ul>
+            </div>
             <!-- Mapa de Google Maps: ESPOL, Guayaquil -->
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.5563824255482!2d-79.96772873046875!3d-2.1479348999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13c1b0e2b3e5%3A0x3e6d3e9c6e0e7c7e!2sEscuela%20Superior%20Politécnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses!2sec!4v1716130000000!5m2!1ses!2sec"
@@ -85,35 +48,83 @@
         </section>
         <section id="resumen">
             <h2 class="subtitle">Resumen profesional</h2>
-
+            <p>
+                Estudiante de Ingeniería en Ciencias de la Computación en la Escuela Superior Politécnica del Litoral (ESPOL), con experiencia en desarrollo de software, gestión de proyectos académicos y asistencia en docencia universitaria. Destacado por la capacidad para liderar, resolver problemas técnicos y trabajar en equipo. Con sólidos conocimientos en programación, estructuras de datos, visión computacional y bases de datos.
+            </p>
         <!-- Video de YouTube antes de Resumen profesional -->
         <div style="margin: 2em 0; text-align:center;">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/uLIs0j2WnlM?si=CNJCNVjtoT69_Mvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-            <p>.</p>
         </section>
         <section id="habilidades">
             <h2 class="subtitle">Habilidades técnicas</h2>
             <ul>
-                <li>DASD</li>
+                <li><strong>Lenguajes de Programación:</strong> C, Python, C#, Java</li>
+                <li><strong>Bases de Datos:</strong> MySQL</li>
+                <li><strong>Desarrollo Web:</strong> JavaScript, React</li>
+                <li><strong>Control de Versiones:</strong> Git o Github</li>
+                <li><strong>Otros:</strong> VSCode</li>
             </ul>
         </section>
         <section id="experiencia">
             <h2 class="subtitle">Experiencia laboral</h2>
             <ul>
-                <li>dASD</li>
+                <li>
+                    Ayudante de Docencia - Fundamentos de Programación 
+                    <br><em>Escuela Superior Politécnica del Litoral (ESPOL) - Guayaquil, Ecuador</em>
+                    <br>📅Fecha: 2024-2025
+                    <ul>
+                        <li>Apoyo en clases teóricas y prácticas para estudiantes de primer semestre.</li>
+                        <li>Revisión y evaluación de tareas y exámenes.</li>
+                        <li>Acompañamiento en el aprendizaje de lógica y sintaxis de programación.</li>
+                    </ul>
+                </li>
+                <li>       
+                    Gestor de Proyectos - Club TAWS
+                    <br><em>Escuela Superior Politécnica del Litoral (ESPOL) - Guayaquil, Ecuador</em>
+                    <br>📅Fecha: 2025
+                    <ul>
+                        <li>Coordinación de actividades tecnológicas y eventos del club.</li>
+                        <li>Liderazgo en equipos de desarrollo de soluciones innovadores.</li>
+                        <li>Planificación y seguimiento de proyectos colaborativos.</li>
+                    </ul>
+                </li>
             </ul>
         </section>
         <section id="proyectos">
-            <h2 class="subtitle">Proyectos relevantes</h2>
+            <h2 class="subtitle">Proyectos Destacados</h2>
             <ul>
-                <li>ADds</li>
+                <li>
+                    🎮 TicTacToe con Reconocimiento de Imágenes
+                    <br><em>Python, OpenCV, Árboles de Decisión</em>
+                    <ul>
+                        <li>Juego interactivo con detección visual del tablero físico mediante cámara.</li>
+                        <li>Implementación de lógica de juego mediante árboles de decisión.</li>
+                    </ul>
+                </li>
+                <li>
+                    🐾 Sistema de Predicción de Animales
+                    <br><em>Java, API de Wikipedia, Árboles Binarios</em>
+                    <ul>
+                        <li>Juego interactivo tipo "Akinator" basado en preguntas binarias.</li>
+                        <li>Consulta automática a Wikipedia para mostrar resultados.</li>
+                    </ul>
+                </li>
             </ul>
         </section>
         <section id="formacion">
             <h2 class="subtitle">Formación académica</h2>
             <ul>
-                <li>DSANI</li>
+                <li>
+                    Ingeniería en Ciencias de la Computación (En curso)
+                    <br><em>Escuela Superior Politécnica del Litoral (ESPOL)</em>
+                    <br>📅 2022 – Actualidad
+                </li>
+                <li>
+                    Bachillerato en Ciencias
+                    <br><em>Unidad Educativa Génesis</em>
+                    <br>📅 2022
+                </li>
             </ul>
         </section>
         <!-- Sección de referencias al final del main -->
@@ -121,28 +132,28 @@
             <h2 class="subtitle">Referencias</h2>
             <article>
                 <p>
-                    <strong>Juan Munizaga</strong><br>
-                    Gerente de Proyectos<br>
-                    Trabajó con Zahid en el desarrollo de una plataforma educativa.
+                    <strong>David Jurado</strong><br>
+                    Máster en Inteligencia Artificial<br>
+                    Fue mentor de Zahid durante su período de ayudante académico
                 </p>
                 <blockquote>
-                    "Su capacidad de gestión fue clave para el éxito del proyecto."
+                    "Su capacidad de gestión fue clave para el éxito del desarrollo de aprendizaje."
                 </blockquote>
             </article>
             <article>
                 <p>
                     <strong>Isabella Martín</strong><br>
-                    Líder Técnico<br>
-                    Colaboró con Zahid en proyectos de software empresarial.
+                    Presidenta de club TAWS<br>
+                    Ha colaborado coon Zahid en diversos proyectos de software
                 </p>
                 <blockquote>
-                    "Su capacidad de resolver problemas técnicos es sobresaliente."
+                    "Gran capacidad de liderazgo y trabajo en equipo."
                 </blockquote>
             </article>
             <article>
                 <p>
                     <strong>Annabella Sánchez</strong><br>
-                    Analista de Sistemas<br>
+                    Vicepresidenta de club TAWS<br>
                     Compartió proyectos de innovación tecnológica con Zahid.
                 </p>
                 <blockquote>
@@ -150,60 +161,42 @@
                 </blockquote>
             </article>
         </section>
-
-        <!-- Ejemplo de semántica de texto -->
-
-<!-- Párrafo con enlace -->
-<p>
-    Para más información, visita el sitio web de 
-    <a href="https://www.espol.edu.ec" target="_blank" rel="noopener">ESPOL</a>.
-</p>
-
-<!-- Lista ordenada -->
-<ol>
-    <li>Enviar tu CV</li>
-    <li>Realizar una entrevista</li>
-    <li>Recibir respuesta</li>
-</ol>
-
-<!-- Lista no ordenada -->
-<ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-</ul>
-
-<!-- Tabla sin bordes -->
-<table>
-    <thead>
-        <tr>
-            <th></th>
-            <th>2022</th>
-            <th>2023</th>
-            <th>2024</th>
-        </tr>
-        
-    </thead>
-    <tbody>
-        <tr>
-            <th>Proyectos</th>
-            <td>5</td>
-            <td>8</td>
-            <td>10</td>
-        </tr>
-        <tr>
-            <th>Tareas</th>
-            <td>3</td>
-            <td>6</td>
-            <td>9</td>
-        </tr>
-        <tr>
-            <th>Certificaciones</th>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-    </tbody>
-</table>
+        <!-- Nuevo bloque al final del main -->
+        <section id="contactame">
+            <h2 class="subtitle">Contáctame</h2>
+            <form action="#" method="post">
+                <label>
+                    Nombre:
+                    <input type="text" name="nombre" required>
+                </label>
+                <label>
+                    Motivo de contacto:
+                    <select name="motivo" required>
+                        <option value="" disabled selected>Seleccione una opción</option>
+                        <option value="consulta">Consulta</option>
+                        <option value="trabajo">Oferta de trabajo</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </label>
+                <fieldset style="border:none; padding:0;">
+                    <legend>¿Cómo prefieres ser contactado?</legend>
+                    <label><input type="radio" name="contacto" value="telefono" required> Teléfono</label>
+                    <label><input type="radio" name="contacto" value="email" required> Correo electrónico</label>
+                    <label><input type="radio" name="contacto" value="redes" required> Redes sociales</label>
+                </fieldset>
+                <fieldset style="border:none; padding:0;">
+                    <legend>Intereses</legend>
+                    <label><input type="checkbox" name="intereses" value="desarrollo"> Desarrollo</label>
+                    <label><input type="checkbox" name="intereses" value="diseño"> Diseño</label>
+                    <label><input type="checkbox" name="intereses" value="investigacion"> Investigación</label>
+                </fieldset>
+                <label>
+                    Mensaje:
+                    <textarea name="mensaje" rows="4" required></textarea>
+                </label>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
     </main>
 </body>
 </html>
